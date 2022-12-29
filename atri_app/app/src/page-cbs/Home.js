@@ -848,20 +848,6 @@ export function useDiv27Cb() {
 	return { onClick }
 }
 
-export function useDiv40Cb() {
-	const onClick = useCallback(callbackFactory("Div40", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-
-
 export function useLink12Cb() {
 
 	return {  }

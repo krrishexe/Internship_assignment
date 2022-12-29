@@ -124,9 +124,6 @@ const desktopModeProps = {
     "Div47": {
       "callbacks": {}
     },
-    "Div40": {
-      "callbacks": {}
-    },
     "Flex27": {
       "callbacks": {}
     },
@@ -870,7 +867,7 @@ const desktopModeProps = {
     "Image26": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/caraousel5.png"
+        "src": "/app-assets/caraousel3.png"
       },
       "callbacks": {
         "onClick": [
@@ -920,7 +917,7 @@ const desktopModeProps = {
     "Image27": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/caraousel5.png"
+        "src": "/app-assets/caraousel2.png"
       },
       "callbacks": {
         "onClick": [

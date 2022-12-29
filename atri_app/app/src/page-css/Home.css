@@ -9,6 +9,7 @@ row-gap: ;
 margin-top: 50px;
 padding-left: ;
 padding-right: ;
+overflow: hidden;
 }
 .p-Home.Div4 {
 width: 497px;
@@ -160,6 +161,7 @@ display: flex;
 height: 470px;
 row-gap: ;
 column-gap: 30px;
+overflow: hidden;
 }
 .p-Home.Div48 {
 width: 430px;
@@ -174,6 +176,7 @@ height: 90px;
 background-color: #fafafa;
 position: relative;
 z-index: 5;
+overflow: hidden;
 }
 .p-Home.Div49 {
 width: 430px;
@@ -189,16 +192,10 @@ position: relative;
 z-index: 5;
 background-color: #ffffff;
 }
-.p-Home.Div40 {
-margin-top: 30px;
-width: 108px;
-height: 54px;
-margin-left: 1200px;
-}
 .p-Home.Flex27 {
 display: flex;
 height: 1441px;
-width: 90%;
+width: 100%;
 margin-left: ;
 padding-top: 180px;
 margin-right: 93px;
@@ -210,6 +207,7 @@ padding-left: 90px;
 padding-right: 90px;
 padding-bottom: ;
 margin-bottom: ;
+overflow: hidden;
 }
 .p-Home.Flex28 {
 display: flex;
@@ -296,10 +294,11 @@ display: flex;
 width: 100%;
 height: 617px;
 margin-left: 93px;
-margin-right: 93px;
+margin-right: ;
 padding-bottom: 80px;
 justify-content: flex-start;
 align-items: center;
+padding-left: ;
 }
 .p-Home.Flex46 {
 display: flex;
@@ -928,9 +927,10 @@ font-weight: 400;
 margin-right: 10px;
 }
 .p-Home.Image26 {
-width: 430px;
+width: 100%;
 height: 305px;
 background-color: #ffffff;
+overflow: hidden;
 }
 .p-Home.Link16 {
 font-size: 20px;
