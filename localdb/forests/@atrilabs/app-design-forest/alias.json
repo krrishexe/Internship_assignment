@@ -1,0 +1,15 @@
+{
+  "Div": 75,
+  "Flex": 126,
+  "Link": 25,
+  "Image": 41,
+  "TextBox": 172,
+  "Overlay": 1,
+  "Cascader": 3,
+  "Button": 10,
+  "Icon": 18,
+  "UnorderedList": 3,
+  "Carousel": 2,
+  "Accordion": 14,
+  "VerticalMenu": 1
+}

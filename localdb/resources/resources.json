@@ -1,0 +1,92 @@
+[
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Raleway:wght@100&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Pinyon Script",
+          "fontStyle": "normal",
+          "fontWeight": 400
+        },
+        {
+          "fontFamily": "Raleway",
+          "fontStyle": "normal",
+          "fontWeight": 100
+        }
+      ]
+    }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "IBM Plex Sans",
+          "fontStyle": "normal",
+          "fontWeight": 300
+        },
+        {
+          "fontFamily": "IBM Plex Sans",
+          "fontStyle": "normal",
+          "fontWeight": 400
+        }
+      ]
+    }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontStyle": "normal",
+          "fontWeight": 500
+        }
+      ]
+    }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontStyle": "normal",
+          "fontWeight": 500
+        },
+        {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontStyle": "normal",
+          "fontWeight": 800
+        }
+      ]
+    }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700;800&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "IBM Plex Sans",
+          "fontStyle": "normal",
+          "fontWeight": 300
+        },
+        {
+          "fontFamily": "IBM Plex Sans",
+          "fontStyle": "normal",
+          "fontWeight": 400
+        },
+        {
+          "fontFamily": "IBM Plex Sans",
+          "fontStyle": "normal",
+          "fontWeight": 700
+        }
+      ]
+    }
+  }
+]

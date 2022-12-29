@@ -1,0 +1,91 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "9dbcd5bf-7450-4864-a245-bc445c598d29",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "fontFamily": "Plus Jakarta Sans",
+          "fontSize": "48px",
+          "fontWeight": 700,
+          "color": "#ffffff",
+          "marginLeft": "93px",
+          "paddingRight": "",
+          "marginRight": "93px"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "0ce9fca5-562c-4834-86e5-523c980363ef",
+    "childId": "9dbcd5bf-7450-4864-a245-bc445c598d29"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "104a9bb0-9239-4b4f-bdad-014b2657d514",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "text": "Ready to make something kickass?"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "0ce9fca5-562c-4834-86e5-523c980363ef",
+    "childId": "104a9bb0-9239-4b4f-bdad-014b2657d514"
+  },
+  {
+    "id": "a8c4b700-99a3-4b11-8cdd-14b1a747c8ab",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "0ce9fca5-562c-4834-86e5-523c980363ef",
+    "childId": "a8c4b700-99a3-4b11-8cdd-14b1a747c8ab"
+  },
+  {
+    "id": "0ce9fca5-562c-4834-86e5-523c980363ef",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "TextBox",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "TextBox149"
+    }
+  }
+]

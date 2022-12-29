@@ -1,0 +1,319 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "cc1a9372-e090-4278-b413-e0350829933f",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "color": "#ffffff"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "6489752d-efaa-4585-a91c-87aa6872500e",
+    "childId": "cc1a9372-e090-4278-b413-e0350829933f"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "3a3b6bbe-6af9-4985-9857-d555c9e5e2e7",
+    "meta": {},
+    "state": {
+      "property": {
+        "custom": {
+          "text": "Read this Article  ➜",
+          "url": "/"
+        }
+      },
+      "parent": {
+        "id": "",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "6489752d-efaa-4585-a91c-87aa6872500e",
+    "childId": "3a3b6bbe-6af9-4985-9857-d555c9e5e2e7"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "e53108e9-4b12-46d4-9303-2f68bb351fe0",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "color": "#ffffff",
+          "fontSize": "30px",
+          "fontFamily": "IBM Plex Sans",
+          "fontWeight": 300
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "6b11fbc6-84f5-49c2-824d-6aa168000b50",
+    "childId": "e53108e9-4b12-46d4-9303-2f68bb351fe0"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "16a79a38-cb36-4caa-89f0-8d6d3f5cd639",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "text": "Design tips for designers, that cover everything you need"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "6b11fbc6-84f5-49c2-824d-6aa168000b50",
+    "childId": "16a79a38-cb36-4caa-89f0-8d6d3f5cd639"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "f35f0907-ac14-4d6f-92ff-c3358dc74918",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "color": "#969696",
+          "fontFamily": "IBM Plex Sans",
+          "fontSize": "16px"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "259b212f-5fbf-49a9-b73d-36689302186f",
+    "childId": "f35f0907-ac14-4d6f-92ff-c3358dc74918"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "490002eb-ad71-4a7f-9a24-f7972488e269",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "text": "April 16, 2021 ● 6 mins"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "refId": "259b212f-5fbf-49a9-b73d-36689302186f",
+    "childId": "490002eb-ad71-4a7f-9a24-f7972488e269"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "92aba791-4e2c-4e07-9021-d9aecdbf374f",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "display": "flex",
+          "height": "250px",
+          "flexDirection": "column",
+          "justifyContent": "space-around",
+          "borderBottomWidth": "1px",
+          "borderBottomStyle": "solid",
+          "borderBottomColor": "#969696ff"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "refId": "9dc59559-a0f0-43f1-a4ee-852635b0af4b",
+    "childId": "92aba791-4e2c-4e07-9021-d9aecdbf374f"
+  },
+  {
+    "id": "7940da55-d5cc-4379-a2ab-b97cd9d1ac91",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "6489752d-efaa-4585-a91c-87aa6872500e",
+    "childId": "7940da55-d5cc-4379-a2ab-b97cd9d1ac91"
+  },
+  {
+    "id": "77e7ecbb-088e-43dd-af39-63be9540453e",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "6b11fbc6-84f5-49c2-824d-6aa168000b50",
+    "childId": "77e7ecbb-088e-43dd-af39-63be9540453e"
+  },
+  {
+    "id": "8280ad33-8ab1-429d-a4c7-27be5c048381",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "259b212f-5fbf-49a9-b73d-36689302186f",
+    "childId": "8280ad33-8ab1-429d-a4c7-27be5c048381"
+  },
+  {
+    "id": "29b22508-9745-468b-bb86-394875e629ee",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {}
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "9dc59559-a0f0-43f1-a4ee-852635b0af4b",
+    "childId": "29b22508-9745-468b-bb86-394875e629ee"
+  },
+  {
+    "id": "6489752d-efaa-4585-a91c-87aa6872500e",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Link",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "9dc59559-a0f0-43f1-a4ee-852635b0af4b",
+        "index": 4
+      },
+      "alias": "Link19"
+    }
+  },
+  {
+    "id": "6b11fbc6-84f5-49c2-824d-6aa168000b50",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "TextBox",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "9dc59559-a0f0-43f1-a4ee-852635b0af4b",
+        "index": 2
+      },
+      "alias": "TextBox58"
+    }
+  },
+  {
+    "id": "259b212f-5fbf-49a9-b73d-36689302186f",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "TextBox",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "9dc59559-a0f0-43f1-a4ee-852635b0af4b",
+        "index": 1
+      },
+      "alias": "TextBox57"
+    }
+  },
+  {
+    "id": "9dc59559-a0f0-43f1-a4ee-852635b0af4b",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Flex",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "Flex30"
+    }
+  }
+]
