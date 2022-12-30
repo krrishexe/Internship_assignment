@@ -362,6 +362,19 @@ const desktopModeProps = {
         ]
       }
     },
+    "Image43": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ff019fc559a4200eda62273_Vector.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "Image2": {
       "custom": {
         "alt": "No preview available",
@@ -444,6 +457,19 @@ const desktopModeProps = {
       "custom": {
         "text": "Blog",
         "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image42": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ff019fc559a4200eda62273_Vector.svg"
       },
       "callbacks": {
         "onClick": [
@@ -864,6 +890,19 @@ const desktopModeProps = {
         ]
       }
     },
+    "Image44": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ff019fc559a4200eda62273_Vector.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "Image26": {
       "custom": {
         "alt": "No preview available",
@@ -955,6 +994,19 @@ const desktopModeProps = {
     "TextBox53": {
       "custom": {
         "text": "Soulful Rebrand"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image45": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ff019fc559a4200eda62273_Vector.svg"
       },
       "callbacks": {
         "onClick": [

@@ -718,6 +718,10 @@ user-select: none;
 font-family: IBM Plex Sans;
 font-weight: 700;
 margin-left: 30px;
+margin-right: 5px;
+}
+.p-Home.Image43 {
+;
 }
 .p-Home.Image2 {
 align-self: center;
@@ -736,6 +740,7 @@ margin-left: ;
 font-family: IBM Plex Sans;
 font-weight: 700;
 color: #000000;
+margin-right: 5px;
 }
 .p-Home.Link2 {
 margin-right: 50px;
@@ -752,6 +757,7 @@ margin-left: ;
 margin-right: 50px;
 font-family: IBM Plex Sans;
 font-weight: 700;
+font-size: ;
 }
 .p-Home.Link5 {
 margin-left: ;
@@ -759,6 +765,9 @@ margin-right: 50px;
 font-family: IBM Plex Sans;
 font-weight: 700;
 font-size: ;
+}
+.p-Home.Image42 {
+;
 }
 .p-Home.TextBox5 {
 align-self: center;
@@ -926,6 +935,9 @@ font-family: IBM Plex Sans;
 font-weight: 400;
 margin-right: 10px;
 }
+.p-Home.Image44 {
+;
+}
 .p-Home.Image26 {
 width: 100%;
 height: 305px;
@@ -969,6 +981,9 @@ font-weight: 700;
 font-size: 24px;
 margin-top: 20px;
 margin-bottom: 20px;
+}
+.p-Home.Image45 {
+;
 }
 .p-Home.TextBox54 {
 font-family: IBM Plex Sans;
