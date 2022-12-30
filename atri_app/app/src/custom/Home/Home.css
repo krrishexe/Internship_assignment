@@ -6,5 +6,25 @@
 }
 .p-home.Link{
     text-decoration: none;
-    color: #b16cea;
+    color: black;
+}
+.p-home.Div78{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+}
+
+button{
+    height: 50px;
+    width: 150px;
+}
+button:hover{
+    transition: ease-in;
+    transform: translate(15px,15px);
+}
+a{
+    text-decoration: none;
+    /* font-size: 20px; */
+    color: black;
+}
+a:hover{
+    color: #969696;
 }

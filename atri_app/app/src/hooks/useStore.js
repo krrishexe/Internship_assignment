@@ -130,6 +130,9 @@ const desktopModeProps = {
     "Flex28": {
       "callbacks": {}
     },
+    "Flex127": {
+      "callbacks": {}
+    },
     "Flex29": {
       "callbacks": {}
     },
@@ -374,6 +377,9 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "Div78": {
+      "callbacks": {}
     },
     "Image2": {
       "custom": {
@@ -792,6 +798,9 @@ const desktopModeProps = {
         ]
       }
     },
+    "Div79": {
+      "callbacks": {}
+    },
     "TextBox22": {
       "custom": {
         "text": "P R O J E C T S"
@@ -943,7 +952,7 @@ const desktopModeProps = {
     },
     "TextBox51": {
       "custom": {
-        "text": "Soulful Rebrand"
+        "text": "Maize Website Design"
       },
       "callbacks": {
         "onClick": [
@@ -993,7 +1002,7 @@ const desktopModeProps = {
     },
     "TextBox53": {
       "custom": {
-        "text": "Soulful Rebrand"
+        "text": "Datadash Product design"
       },
       "callbacks": {
         "onClick": [
@@ -1040,10 +1049,23 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link18": {
+    "Link27": {
       "custom": {
         "text": "View all",
         "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image49": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ff019fc559a4200eda62273_Vector.svg"
       },
       "callbacks": {
         "onClick": [
@@ -1105,7 +1127,7 @@ const desktopModeProps = {
     },
     "TextBox63": {
       "custom": {
-        "text": "Design tips for designers, that cover everything you need"
+        "text": "How to build rapport with your web design clients"
       },
       "callbacks": {
         "onClick": [
@@ -1142,7 +1164,7 @@ const desktopModeProps = {
     },
     "TextBox65": {
       "custom": {
-        "text": "Design tips for designers, that cover everything you need"
+        "text": "Top 6 free website mockup tools 2021"
       },
       "callbacks": {
         "onClick": [
@@ -1179,7 +1201,7 @@ const desktopModeProps = {
     },
     "TextBox67": {
       "custom": {
-        "text": "Design tips for designers, that cover everything you need"
+        "text": "Logo design trends to avoid in 2021"
       },
       "callbacks": {
         "onClick": [
@@ -1216,7 +1238,7 @@ const desktopModeProps = {
     },
     "TextBox69": {
       "custom": {
-        "text": "Design tips for designers, that cover everything you need"
+        "text": "22 best UI design tools"
       },
       "callbacks": {
         "onClick": [
