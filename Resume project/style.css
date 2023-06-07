@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 html,
 body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-color: #5969bd;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
-
-/* Navbar section */
-
 .nav {
     width: 100%;
     height: 65px;
     position: fixed;
     line-height: 65px;
     text-align: center;
+    z-index: 1;
 }
 
 .nav div.logo {
@@ -35,7 +35,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #96a0d5;
 }
 
 .nav div.main_list {
@@ -67,22 +67,72 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #96a0d5;
 }
-
-
-/* Home section */
-
-.home {
+.hero{
+    position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
-    background-position: center top;
-	background-size:cover;
+    background: url('');
 }
-
+.home{
+    position: relative;
+    left: 30%;
+    width: 100%;
+    height: 80vh;
+    background-image: url('../media/smr-showcase.png');
+    background-position: center top;
+	background-size:contain;
+    background-repeat: no-repeat;
+    flex: 0.8;
+}
+.flex-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    height: 100vh;
+}
+.padd{
+    padding:5% 5%;
+}
+.padd-lr{
+    padding: 0 5%;
+}
 .navTrigger {
     display: none;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    width: auto;
+    flex:0.4;
+    margin-bottom: 150px;
+}
+.content-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 60vh;
+    width: auto;
+    flex:0.4;
+}
+.img-1{
+    flex: 0.1;
+}
+.head-1{
+    font-size: 55px;
+    color: #fff;
+}
+.para-1{
+    color: #fff;
+    font-size: 20px;
+
 }
 
 .nav {
@@ -91,61 +141,6 @@ body {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-
-
-/* Media qurey section */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        margin: 0;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .navTrigger {
-        display: block;
-    }
-    .nav div.logo {
-        margin-left: 15px;
-    }
-    .nav div.main_list {
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-    }
-    .nav div.show_list {
-        height: auto;
-        display: none;
-    }
-    .nav div.main_list ul {
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        background-color: #111;
-        /*same background color of navbar*/
-        background-position: center top;
-    }
-    .nav div.main_list ul li {
-        width: 100%;
-        text-align: right;
-    }
-    .nav div.main_list ul li a {
-        text-align: center;
-        width: 100%;
-        font-size: 3rem;
-        padding: 20px;
-    }
-    .nav div.media_button {
-        display: block;
-    }
-}
-
-
-/* Animation */
-/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
 .navTrigger {
     cursor: pointer;
@@ -341,11 +336,6 @@ body {
     background-color: #111;
 }
 
-
-
-
-
-
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
@@ -356,8 +346,101 @@ body {
 	padding-right:15%;
 	font-size: 20px;
 }
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+
+/* media queries */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin:  0 0 8px 0;
+}
+footer a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgba(224,214, 211, 0.3);
+    margin:  0 0 8px 0;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #dfe0fe;
+    padding-right: 20px;
+    cursor: pointer;
+}
+footer .install img{
+    margin: 20px 0;
+}
+footer .follow i:hover {
+    color: #b3a99c
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
 }
